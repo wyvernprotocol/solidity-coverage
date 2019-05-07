@@ -1,6 +1,6 @@
 {
   "name": "solidity-coverage",
-  "version": "0.5.12",
+  "version": "0.5.13",
   "description": "",
   "bin": {
     "solidity-coverage": "./bin/exec.js"
@@ -22,13 +22,13 @@
   "license": "ISC",
   "dependencies": {
     "death": "^1.1.0",
-    "ethereumjs-testrpc-sc": "github:leapdao/testrpc-sc.git#master",
+    "ethereumjs-testrpc-sc": "https://github.com/leapdao/testrpc-sc.git#master",
     "istanbul": "^0.4.5",
     "keccakjs": "^0.2.1",
     "req-cwd": "^1.0.1",
     "shelljs": "^0.7.4",
     "sol-explore": "^1.6.2",
-    "solidity-parser-sc": "github:leapdao/solidity-parser.git#fd9d5c809e4795c9f703cb7f5eb0bf2935cf5f35",
+    "solidity-parser-sc": "https://github.com/leapdao/solidity-parser.git#fd9d5c809e4795c9f703cb7f5eb0bf2935cf5f35",
     "tree-kill": "^1.2.0",
     "web3": "^0.20.6"
   },
